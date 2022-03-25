@@ -1,0 +1,19 @@
+{
+  "extends": ["plugin:prettier/recommended"],
+  "plugins": ["prettier"],
+  "parserOptions": {
+    "ecmaVersion": 2017
+  },
+  "env": {
+    "es6": true
+  },
+  "rules": {
+    "func-names": "off",
+    "no-console": "off",
+    "no-plusplus": "off",
+    "no-underscore-dangle": "off",
+    "no-unused-vars": "warn",
+    "no-var": "off",
+    "object-shorthand": "off"
+  }
+}

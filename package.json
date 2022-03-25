@@ -1,0 +1,28 @@
+{
+  "name": "gas-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for Google Apps Script projects.",
+  "main": "Code.js",
+  "scripts": {
+    "install": "npm i @google/clasp @types/google-apps-script eslint-plugin-prettier && npm i -D nodemon eslint eslint-config-airbnb-base eslint-config-prettier eslint-plugin-import prettier prettier-eslint",
+    "dev": "node config/switchEnv dev && npx clasp push -w",
+    "prod": "node config/switchEnv prod && npx clasp push"
+  },
+  "keywords": [],
+  "author": "Ben Ronkin",
+  "license": "ISC",
+  "dependencies": {
+    "@google/clasp": "^2.4.1",
+    "@types/google-apps-script": "^1.0.45",
+    "eslint-plugin-prettier": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.4",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1",
+    "prettier-eslint": "^13.0.0"
+  }
+}
